@@ -6,10 +6,17 @@ var currentWeather = document.getElementById('currentWeather');
 var searchHistory = document.getElementById('searchHistory');
 var forecast = document.getElementById('forecast');
 //variable for Weather APi key
-// var apiKey =
+var apiKey = 'c1a28dcc507b67ad38b18eedc543dd6e'
+// var apiurl = 'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=apiKey
+//code to fetch key
+// fetch(apiUrl)
+// .then(function(response) {
+//     return response.json();
+// }
 
+function(){
 
-
+};
 // WHEN I search for a city
 // GIVEN a weather dashboard with form inputs
 // THEN I am presented with current and future conditions for that city and that city is added to the search history
